@@ -1,0 +1,19 @@
+*{
+    margin:0%;
+    border:2px solid red;
+    min-height:100;
+    background-color:azure;
+}
+
+.row-banner{
+    background-image:linear-gradient(to right, rgba(0,0,0, 0.6), rgba(10,10,20, 0.7)),url("banner.png");
+	background-attachment: fixed;
+	background-color: #BFC0C0;
+	background-repeat:no-repeat;
+	background-size:cover;
+    width:100%;
+	height:800px;
+	text-align:center;
+	color: #fff;
+	font-family:  "droid serif", "tex gyre bonum", serif;
+	font-size: 2.5vw;
