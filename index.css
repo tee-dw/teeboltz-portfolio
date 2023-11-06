@@ -1,19 +1,95 @@
 *{
-    margin:0%;
-    border:2px solid red;
-    min-height:100;
+    margin:0;
+    padding:0;
+    border:1px solid red;
+    min-height:50;
     background-color:azure;
 }
 
-.row-banner{
-    background-image:linear-gradient(to right, rgba(0,0,0, 0.6), rgba(10,10,20, 0.7)),url("banner.png");
-	background-attachment: fixed;
-	background-color: #BFC0C0;
+.banner{
+    background-image: linear-gradient(to right, rgba(0,0,0, 0.8), rgba(10,10,20, 0.7)),url("Bannerdot.png");
+    background-color: #BFC0C0;
 	background-repeat:no-repeat;
 	background-size:cover;
-    width:100%;
-	height:800px;
-	text-align:center;
-	color: #fff;
-	font-family:  "droid serif", "tex gyre bonum", serif;
-	font-size: 2.5vw;
+    height:700;
+}
+
+.logo{
+    border:1px solid blue;
+    width:100;
+    height:5;
+    margin:10;
+}
+
+.text-body-emphasis h4{
+    color:red;
+}
+
+.picture{
+   width: 70%;
+   justify-content: center;
+}
+
+.col{
+    height:60;
+    background-color: rgba(0,0,0,0);
+}
+
+.nav{
+    background-color: rgba(0,0,0,0);
+}
+
+.ul{
+    background-color: rgba(0,0,0,0);
+}
+
+.text-center{
+    background-color: rgba(0,0,0,0);
+}
+
+.blockquote{
+    background-color: rgba(0,0,0,0);
+}
+
+.blockquote-footer {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875em;
+    color: #6c757d;
+    background-color: rgba(0,0,0,0);
+    height:50;
+}
+
+.skills{
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#skills{
+    align-items: center;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+  }
+
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #000000;
+    text-align: center;
+  }
